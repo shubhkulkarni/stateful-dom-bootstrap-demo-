@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 3px 5px rgba(128, 128, 128, 0.349);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.349);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.category {
+  color: gray;
+  font-size: 12px;
+}
+
+.image {
+  height: 100px;
+  object-fit: contain;
+}
+
+.logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+.logo:hover {
+  text-decoration: underline;
+}
